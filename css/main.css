@@ -1,51 +1,85 @@
-html h1{
-    font-family: 'Pacifico', cursive;
-    font-size:50px;
+html h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
 }
+html h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 36px;
+    border-bottom: 3px solid white; 
+}
+html p {
+    font-size:17px;
+}
+
 .jumbotron {
-    background-image: url(http://i.imgur.com/ybZWiUe.png);
+    background-image: url(../../img/../../img/Lavender-Ridge.png);
     background-size: cover;
     background-repeat: no-repeat;
     color: #B378D3;
     min-height: 400px;
     margin-bottom: 0;
 }
+
 .navbar-default {
     padding-right: 20px;
     padding-left: 20px;
-    background-color:#9D69B9;
-    border-color:#FFFFFF;
+    background-color: #9D69B9;
+    border-color: #FFFFFF;
 }
+
 body {
     background-color: #362440;
-    
 }
+
 html body {
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
+
 div.container {
-    background-color:#6C497F;
+    background-color: #6C497F;
 }
-.navbar-default .navbar-brand{
-    color:#FFFFFF;
-    font-family: 'Pacifico', cursive;
+
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+    font-size:35px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold
 }
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-    color:#BE7FE0;
-    background-color: transparent;
-}
+
+    .navbar-default .navbar-brand:hover,
+    .navbar-default .navbar-brand:focus {
+        color: #BE7FE0;
+        background-color: transparent;
+    }
+
 .navbar-default .navbar-nav > li > a {
     color: #FFFFFF;
 }
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color:#FFFFFF;
-    background-color:#BE7FE0;
+    color: #FFFFFF;
+    background-color: #BE7FE0;
 }
+
 .navbar-default .navbar-nav > a:hover,
 .navbar-default .navbar-nav > a:focus {
-    color:#472F53;
-    background-color:transparent;
+    color: #472F53;
+    background-color: transparent;
+}
+
+
+.btn-default:hover {
+    background-color: #BE7FE0;
+}
+
+i#arrow {
+    color: #FFFFFF;
+}
+div.thumbnail{
+    background-color:#B378D3;
+}
+div.thumbnail p {
+    color:#FFFFFF;
 }

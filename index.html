@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en" ng-app="app">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,32 +8,40 @@
     <title>Lavender Ridge Memory Care</title>
 
     <!-- Bootstrap -->
-    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  </head>
-    
-  <body ng-controller="siteController">
-      <div class="jumbotron container-fluid text-center">
-      <h1>Lavender Ridge</h1>
-      </div>
-      <nav class="navbar navbar-default" role="navigation">
-          <div class="navbar-header">
-          <a class="navbar-brand" ui-sref="home">Lavender Ridge</a>
-          </div>
+</head>
+
+<body ng-controller="siteController">
+    <div class="jumbotron container-fluid text-center">
+       <!--Jumbotron Display-->
+    </div>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button class="btn btn-default navbar-toggle"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse"><i id="arrow" class="fa fa-arrow-down"></i></button>
+            <a class="navbar-brand" ui-sref="home">Lavender Ridge</a>
+        </div>
+        <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a ui-sref="home">Home</a></li>
                 <li><a ui-sref="about">About Us</a></li>
                 <li><a ui-sref="services">Services</a></li>
-                <li><a ui-sref="employment">Employment</a></li>
+                <li><a ui-sref="contact">Contact Us</a></li>
             </ul>
-      </nav>
+        </div>
+    </nav>
     <div class="container">
-        <div ui-view></div>    
+        <div ui-view></div>
     </div>
-      
-  
+    <br />
+    <br />
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -46,7 +54,7 @@
     <script src="js/home.ctrl.js"></script>
     <script src="js/about.ctrl.js"></script>
     <script src="js/services.ctrl.js"></script>
-    <script src="js/employment.ctrl.js"></script>
+    <script src="js/contact.ctrl.js"></script>
 
-  </body>
+</body>
 </html>
